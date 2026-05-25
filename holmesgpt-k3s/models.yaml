@@ -1,0 +1,6 @@
+# ~/.holmesgpt/models.yaml
+gemini:
+  provider: google
+  model: gemini-3.1-flash-lite
+  api_key: "{{ env.GOOGLE_API_KEY }}"
+
